@@ -195,17 +195,6 @@
     padding: 1px;
     margin: 5px;
 }
-a.footerPara:hover {
-    text-decoration: none;
-    color:#f27822;
-}
-.copyrightlink{
-    color:#5a7184;
-}
-a.copyrightlink:hover{
-    text-decoration: none;
-    color:#f27822;
-}
 .footerHeading {
     font-size: 25px;
     color: #5a7184;
@@ -220,7 +209,15 @@ a.copyrightlink:hover{
     }
 }
 @media(min-width:992px) {
+    .serviceMainCon {
+        margin-top: 5px;
+    }
     .corousel-container {
-        height: 85vh;
+        height: 85%;
+    }
+}
+@media(min-width:1200px){
+    .corousel-container {
+        height:95%;
     }
 }
